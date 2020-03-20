@@ -2,7 +2,7 @@
 const fs = require('fs');
 const lockfile = require('@yarnpkg/lockfile');
 
-const pkgName = 'lottie';
+const pkgName = 'soundredux';
 
 const yarnLock = lockfile.parse(fs.readFileSync(`yarn-lock/${pkgName}-yarn.lock`, 'utf8'));
 // const packageJson = JSON.parse(fs.readFileSync(`package-json/${pkgName}.json`, 'utf8'));
@@ -54,5 +54,5 @@ for (const [full, pkg] of Object.entries(dependencies)) {
 // console.log(JSON.stringify(dependencies));
 
 for (const [key, value] of Object.entries(dependencies)) {
-  console.log(`${key}\t${value.dependencies.length}\t${value.dependedBy.length}`);
+  console.log(`${key},${value.dependencies.length},${value.dependedBy.length}`);
 }
