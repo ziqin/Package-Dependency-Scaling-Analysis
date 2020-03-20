@@ -20,10 +20,39 @@ SUSTech CSE Junda AI
 - Hackernews React GraphQL (3.7k stars): https://github.com/clintonwoo/hackernews-react-graphql/blob/master/package-lock.json
 - React boilerplate (24.7k stars): https://github.com/react-boilerplate/react-boilerplate/blob/master/package-lock.json
 
-## Typical Vue.js Project
+## Vue Ecosystem
 
-### yarn.lock
+### Commonly Used Libraries
+
+- Core: [Vue.js](https://www.npmjs.com/package/vue)
+- State management: [Vuex](https://www.npmjs.com/package/vuex)
+- SPA routing: [Vue Router](https://www.npmjs.com/package/vue-router)
+- Server side rendering: [vue-server-render](https://www.npmjs.com/package/vue-server-renderer)
+- UI component libraries:
+  - [Vuetify](https://www.npmjs.com/package/vuetify)
+  - [Element UI](https://www.npmjs.com/package/element-ui)
+  - [Ant Design Vue](https://www.npmjs.com/package/ant-design-vue)
+  - [ViewUI (iView)](https://www.npmjs.com/package/vuetify)
+- Testing: [vue-test-utils](https://www.npmjs.com/package/@vue/test-utils)
+- Scaffolding generation: [vue-cli](https://www.npmjs.com/package/@vue/cli)
+- Internationalization: [vue-i18n](https://www.npmjs.com/package/vue-i18n)
+
+### Typical Vue Projects
 
 - [DivanteLtd/vue-storefront (6.4k stars)](https://github.com/DivanteLtd/vue-storefront/blob/master/yarn.lock)
 
 - [Scaffolding app created with vue-cli](yarn-lock/vue-cli-custom-app-yarn.lock)
+
+### Vue SSR Projects
+
+## (Probably) Shared Dev Tools
+
+- Linter: [ESLint](https://www.npmjs.com/package/eslint)
+- Code formatter: [Prettier](https://www.npmjs.com/package/prettier)
+- Static Typing: [TypeScript](https://www.npmjs.com/package/typescript)
+- CSS Preprocessors:
+  - [LESS](https://www.npmjs.com/package/less)
+  - [Sass](https://www.npmjs.com/package/sass)
+  - [Stylus](https://www.npmjs.com/package/stylus)
+- Bundlers:
+  - [Webpack](https://www.npmjs.com/package/webpack)
