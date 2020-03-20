@@ -19,3 +19,11 @@ SUSTech CSE Junda AI
 - duxianwei520/react (3.5k stars): https://github.com/duxianwei520/react/blob/master/package-lock.json
 - Hackernews React GraphQL (3.7k stars): https://github.com/clintonwoo/hackernews-react-graphql/blob/master/package-lock.json
 - React boilerplate (24.7k stars): https://github.com/react-boilerplate/react-boilerplate/blob/master/package-lock.json
+
+## Typical Vue.js Project
+
+### yarn.lock
+
+- [DivanteLtd/vue-storefront (6.4k stars)](https://github.com/DivanteLtd/vue-storefront/blob/master/yarn.lock)
+
+- [Scaffolding app created with vue-cli](yarn-lock/vue-cli-custom-app-yarn.lock)
